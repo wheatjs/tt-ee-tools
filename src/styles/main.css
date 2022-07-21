@@ -1,0 +1,17 @@
+@import './markdown.css';
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  @apply font-mono;
+}
+
+html.dark {
+  @apply bg-dark-600 text-light-500;
+}
